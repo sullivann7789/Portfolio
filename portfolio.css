@@ -5,6 +5,10 @@
     color: deepskyblue;
 }
 
+.name{
+    color: mistyrose;
+}
+
 body header h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: deepskyblue;
@@ -52,4 +56,12 @@ h4 {
 }
 ul {
     text-align: center;
+}
+.PWS {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+.HRP {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
 }
