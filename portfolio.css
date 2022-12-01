@@ -15,8 +15,8 @@ body header h2 {
     font: 50px;
 
 }
-header div div {
-    style:flex
+header ul {
+    margin-bottom: 50px;
 }
 .PWSG {
     align-items: center;
