@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: deepskyblue;
+}
+
+body header h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: deepskyblue;
+    font: 50px;
+
+}
+header div div {
+    style:flex
+}
+.PWSG {
+    align-items: center;
+    style:flex;
+    block-size: 400px;
+    margin-left: 310px;
+
+}
+.PWSG2 {
+    align-items: center;
+    style:flex;
+    block-size: 400px;
+}
+
+.HRSN {
+    block-size: 400px;
+    align-items: center;
+    margin-left: 500px;
+}
+
+body header h2 span{
+    padding-right: 5px;
+}
+
+body header {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 20px;
+    color:deepskyblue;
+    
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+ul {
+    text-align: center;
+}
