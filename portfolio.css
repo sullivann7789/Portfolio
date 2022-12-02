@@ -31,30 +31,35 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:darkslateblue;
     background-color:darksalmon;
+    border: 9px solid darkred;
     }
 .PWS {
     display: flex;
-    padding-bottom: 200px;
-    padding-top: 200px;
+    border: 9px solid darkslateblue;
 }
 .PWScontent {
     padding: 20px;
     text-align: center;
+    border: 9px solid darkgreen;
 }
 .PWSG {
-    height:400px;
+    height:450px;
     width:auto;
+    border: 9px solid darkgoldenrod;
 }
 .PWSG2{
-    height:400px;
+    height:450px;
     width:auto;
+    border: 9px solid darkgoldenrod;
 }
 .HRP{
     text-align: center;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 9px solid darkgreen;
 }
 .HRSN{
-
-    height: 495px;
+    height: 570px;
     width: auto;
+    border: 9px solid dodgerblue;
 }
