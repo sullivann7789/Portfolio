@@ -1,11 +1,13 @@
-var HRSN = Image.querySelector("HRSN")
-var PWSG = Image.querySelector("PWSG")
-var PWSG2 = Image.querySelector("PWSG2")
+const hrsn = window.open("https://sullivann7789.github.io/Horiseon-Refactor-Project", "_blank");
+const pwsg = window.open("https://sullivann7789.github.io/prework-study-guide/", "_blank");
 
-HRSN.onclick = window.open("https://sullivann7789.github.io/prework-study-guide/", "_blank");
-PWSG.onclick = window.open("https://sullivann7789.github.io/prework-study-guide/", "_blank");
-PWSG2.onclick = window.open("https://sullivann7789.github.io/Horiseon-Refactor-Project/", "_blank");
+let bang = document.querySelector("img");
+const src = bang.getAttribute("src");
 
-function opensesame () {
-
-}
+bang.onclick = () => {
+    if (src === "HRSN.png") {
+        hrsn
+    } else {
+        pwsg
+    }
+};
