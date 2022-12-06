@@ -1,5 +1,3 @@
-
-
 let bang = document.querySelector("img");
 const src = bang.getAttribute("src");
 
@@ -16,11 +14,17 @@ bang.onclick = () => {
     }
     };
 
-let stang = document.querySelectorAll("img");
-const hrc = bang.getAttribute("src");
+let dang = document.querySelector("h3");
+const arc = bang.getAttribute("Prework-Study-Guide Web Project");
+const drk = bang.getAttribute("Horiseon Refactor Project");
 
-stang.onclick = () => {
-    if (hrc === "PWSG.png") {
-        const dork = window.open("https://sullivann7789.github.io/prework-study-guide/", "_blank");
+dang.onclick = () => {
+    if (arc) {
+    window.open("https://sullivann7789.github.io/prework-study-guide/", "_blank");
     }
-};
+    if (drk) {
+    window.open("https://sullivann7789.github.io/Horiseon-Refactor-Project", "_blank");
+    }
+    };
+    
+
