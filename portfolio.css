@@ -85,7 +85,7 @@ h3 {
     border: 10px solid darkslateblue;
 }
 .PWScontent {
-    width: auto;
+    width:max-content;
     padding: 20px;
     text-align: center;
     border: 9px solid darkgreen;
@@ -104,4 +104,10 @@ h3 {
 .HRSN{
     height: 570px;
     border: 9px solid dodgerblue;
+}
+
+@media (min-width: 1600px) {
+    .PWScontent {
+        width: 1000px;
+    }
 }
