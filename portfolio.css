@@ -5,6 +5,7 @@
 }
 body{
     background-color:deepskyblue;
+    size: 100%;
 }
 header {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -72,6 +73,7 @@ h3 {
     margin-top: 20px;
 }
 .content{
+    width: 100%;
     display:inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:darkslateblue;
@@ -83,6 +85,7 @@ h3 {
     border: 10px solid darkslateblue;
 }
 .PWScontent {
+    width: auto;
     padding: 20px;
     text-align: center;
     border: 9px solid darkgreen;
