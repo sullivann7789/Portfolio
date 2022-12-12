@@ -111,3 +111,37 @@ h3 {
         width: 1000px;
     }
 }
+@media (max-width: 700px) {
+    .HRSN {
+        height: 150px;
+        width: auto;
+        border: 2px;
+    }
+    .aH {
+        height: 110px;
+        width: auto;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    header ul li a {
+        font-size: 10px;
+        margin-left: 35%;
+    }
+    body {
+        font-size: 10px;
+    }
+    @keyframes fixposition {
+        0% {
+            color: blueviolet;
+            margin-left: 0%;
+        }
+        100% {
+            color: darkred;
+            margin-left: 30%;
+        }
+    }
+    #preguide {
+        padding-right: 40px;
+    }
+}
