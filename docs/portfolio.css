@@ -64,6 +64,9 @@ h1 {
 #preguide {
     padding-right: 110px;
 }
+.PWS a {
+    background-color: darkgoldenrod;
+}
 h3 {
     text-decoration:underline;
 }
