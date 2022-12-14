@@ -93,7 +93,6 @@ h3 {
     color:black;
     background-color:wheat;
     border-top: 20px wheat solid;
-    border-radius: 10px;
     }
 .PWS {
     display: flex;
@@ -109,6 +108,12 @@ h3 {
     border: 9px rgb(0, 0, 0) ridge;
     border-radius: 5px;
 }
+#PWSG {
+    margin-left: 10px;
+}
+#PWSG2 {
+    margin-right: 10px;
+}
 .HRP{
     text-align: center;
     padding-top: 0px;
@@ -118,6 +123,7 @@ h3 {
     height: 570px;
     border: 9px rgb(0, 0, 0) ridge;
     border-radius: 3px;
+    margin-bottom: 30px;
 }
 
 @media (min-width: 1600px) {
