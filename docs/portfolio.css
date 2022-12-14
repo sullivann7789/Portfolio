@@ -12,7 +12,13 @@ header {
     font-family: Didot;
     color: tan;
     background-color:gray;
-    text-shadow: 10px 10px 10px black;
+    text-shadow: 10px 10px 8px black;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+header h1 {
+    transform: skew(-15deg);
 }
 .name{
     color:darkred;
@@ -35,7 +41,7 @@ header ul li a {
 }
 @keyframes fixposition {
     0% {
-        color: gray;
+        color: rgb(35, 35, 35);
         text-shadow: none;
         margin-left: 0%;
     }
@@ -63,6 +69,11 @@ h1 {
     100% {
         margin-left: 44%;
     }
+}
+.subheading {
+    background-color: rgb(35, 35, 35);
+    border-bottom:groove 10px rgb(95, 95, 95) ;
+    border-top: ridge 10px rgb(95, 95, 95);
 }
 #preguide {
     padding-right: 110px;
@@ -95,7 +106,7 @@ h3 {
 .aH {
     height:455px;
     margin-bottom: 100px;
-    border: 9px solid rgba(23, 23, 23, 0.534);
+    border: 9px rgb(0, 0, 0) ridge;
     border-radius: 5px;
 }
 .HRP{
@@ -105,7 +116,7 @@ h3 {
 }
 .HRSN{
     height: 570px;
-    border: 9px solid rgba(23, 23, 23, 0.534);
+    border: 9px rgb(0, 0, 0) ridge;
     border-radius: 3px;
 }
 
