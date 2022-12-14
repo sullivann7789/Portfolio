@@ -4,26 +4,28 @@
     padding: 0;
 }
 body{
-    background-color:deepskyblue;
+    background-color:gray;
     size: 100%;
+    border-collapse: collapse;
 }
 header {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:darkslateblue;
-    background-color:deepskyblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Didot;
+    color: tan;
+    background-color:gray;
+    text-shadow: 10px 10px 10px black;
 }
 .name{
     color:darkred;
-    background-color: deepskyblue;
+    background-color: gray;
 }
 header ul li a {
+    font-family: Didot;
     font-size: 30px;
     text-decoration: none;
     text-align: center;
     padding: 10px;
     color:darkred;
-    margin-left: 40%;
+    margin-left: 37%;
     animation-name: fixposition;
     animation-duration: 3s;
     animation-delay: 0s;
@@ -33,12 +35,13 @@ header ul li a {
 }
 @keyframes fixposition {
     0% {
-        color: blueviolet;
+        color: gray;
+        text-shadow: none;
         margin-left: 0%;
     }
     100% {
         color: darkred;
-        margin-left: 40%;
+        margin-left: 37%;
     }
     
 }
@@ -58,14 +61,11 @@ h1 {
         margin-left: 0%;
     }
     100% {
-        margin-left: 60%;
+        margin-left: 44%;
     }
 }
 #preguide {
     padding-right: 110px;
-}
-.PWS a {
-    background-color: darkgoldenrod;
 }
 h3 {
     text-decoration:underline;
@@ -78,35 +78,35 @@ h3 {
 .content{
     width: 100%;
     display:inline-block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:darkslateblue;
-    background-color:darksalmon;
-    border: 9px solid darkred;
+    font-family: Didot;
+    color:black;
+    background-color:wheat;
+    border-top: 20px wheat solid;
+    border-radius: 10px;
     }
 .PWS {
     display: flex;
-    border: 10px solid darkslateblue;
 }
 .PWScontent {
     width:max-content;
     padding: 20px;
     text-align: center;
-    border: 9px solid darkgreen;
 }
 .aH {
     height:455px;
-    border: 9px solid darkgoldenrod;
-    bottom: -2px;
+    margin-bottom: 100px;
+    border: 9px solid rgba(23, 23, 23, 0.534);
+    border-radius: 5px;
 }
 .HRP{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 50px;
-    border: 9px solid darkgreen;
 }
 .HRSN{
     height: 570px;
-    border: 9px solid dodgerblue;
+    border: 9px solid rgba(23, 23, 23, 0.534);
+    border-radius: 3px;
 }
 
 @media (min-width: 1600px) {
@@ -119,6 +119,7 @@ h3 {
         height: 150px;
         width: auto;
         border: 2px;
+        border-radius: .5px;
     }
     .aH {
         height: 110px;
@@ -146,5 +147,18 @@ h3 {
     }
     #preguide {
         padding-right: 40px;
+    }
+}
+@media (min-width: 992px) {
+    .card {
+        display: inline-block;
+
+    }
+}
+@media (max-width: 992px) {
+    .card {
+        display: flex;
+        flex-direction: row;
+
     }
 }
