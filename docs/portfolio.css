@@ -145,22 +145,67 @@ h3 {
     padding-bottom: 50px;
 }
 #cat {
+    position:relative;
     height: 100px;
     width: 100px;
     align-items: center;
     mix-blend-mode:color-burn;
-    z-index: 2;
+    z-index: 0;
+    top: 34px;
+    transform: rotate(9deg);
+}
+#cat:hover {
+    animation: spook;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-direction:alternate;
+}
+@keyframes spook {
+    0% {
+        position:relative;
+        height: 100px;
+        width: 100px;
+        align-items: center;
+        mix-blend-mode:color-burn;
+        z-index: 0;
+        top: 34px;
+        transform: rotate(9deg);
+    }
+
+    100% {
+        position:relative;
+        height: 100px;
+        width: 100px;
+        align-items: center;
+        mix-blend-mode:color-burn;
+        z-index: 0;
+        top: 34px;
+        transform: rotate(9deg);
+    }
+    50% {
+        position:relative;
+        height: 100px;
+        width: 100px;
+        align-items: center;
+        mix-blend-mode:color-burn;
+        z-index: 0;
+        top: 60px;
+        transform: rotate(6deg);
+    }
+    
 }
 .HRSN{
-    position: relative;
+    position:relative;
     height: 570px;
     border: 9px rgb(0, 0, 0) ridge;
     border-radius: 3px;
     margin-bottom: 30px;
     top: -8.75px;
+    z-index: 1;
 }
 .HRSN:hover{
     border: 9px darkred ridge;
+    z-index: 1;
 }
 
 
