@@ -165,7 +165,7 @@ h3 {
 #cat:hover {
     animation: spook;
     animation-duration: 5s;
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
     animation-direction:alternate;
 }
 @keyframes spook {
