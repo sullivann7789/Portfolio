@@ -126,6 +126,7 @@ h3 {
 .PWS {
     display: flex;
     padding: 30px;
+    border-bottom: 3px rgb(35, 35, 35) solid ;
 }
 .PWScontent {
     width:max-content;
@@ -133,6 +134,9 @@ h3 {
     text-align: center;
 }
 
+.PWS ul li {
+    font-size: 12px;
+}
 .aH {
     height: 600px;
     margin-bottom: 100px;
@@ -157,6 +161,7 @@ h3 {
     align-items: center;
 }
 #catp {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     position:relative;
