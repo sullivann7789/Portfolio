@@ -9,7 +9,8 @@ body{
     border-collapse: collapse;
 }
 header {
-    font-family: Didot;
+    font-family: Arial;
+    text-justify: newspaper;
     color: tan;
     background-color:gray;
     text-shadow: 10px 10px 8px black;
@@ -27,7 +28,7 @@ header {
     background-color: none;
 }
 header ul li a {
-    font-family: Didot;
+    font-family: Arial;
     font-size: 30px;
     text-decoration: none;
     text-align: center;
@@ -67,10 +68,10 @@ h1 {
 }
 @keyframes slide {
     0% {
-        margin-left: 0%;
+        padding-left: 0%;
     }
     100% {
-        margin-left: 44%;
+        padding-left: 38%;
     }
 }
 h1:hover{
@@ -114,14 +115,17 @@ h3 {
 }
 .content{
     width: 100%;
-    display:inline-block;
-    font-family: Didot;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-family: Arial;
     color:black;
     background-color:wheat;
     border-top: 20px wheat solid;
     }
 .PWS {
     display: flex;
+    padding: 30px;
 }
 .PWScontent {
     width:max-content;
@@ -130,7 +134,7 @@ h3 {
 }
 
 .aH {
-    height:455px;
+    height: 600px;
     margin-bottom: 100px;
     border: 9px rgb(0, 0, 0) ridge;
     border-radius: 5px;
@@ -145,22 +149,36 @@ h3 {
     margin-right: 10px;
 }
 .HRP{
-    display: flex;
+    position:relative;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     padding-top: 0px;
     padding-bottom: 50px;
+    display:flex;
+    align-items: center;
+}
+#catp {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    align-items: center;
 }
 #cat {
     position:relative;
     height: 100px;
     width: 100px;
-    align-items: center;
     mix-blend-mode:color-burn;
-    z-index: 0;
+    z-index: 1;
     top: 34px;
     transform: rotate(9deg);
+}
+#HRPcontent{
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+#HRPcontent ul li {
+    font-size: 12px;
 }
 #text-box:hover::after {
     position:absolute;
