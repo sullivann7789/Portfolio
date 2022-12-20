@@ -257,10 +257,7 @@ h3 {
 #table-box{
     position: relative;
     display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    border: 3px rgb(35, 35, 35) solid;
-    margin: 30px;
+    flex-direction:row;
 }
 #onp {
     position: absolute;
@@ -271,9 +268,16 @@ h3 {
 .fake{
     border-left: 2px rgb(35, 35, 35) solid;
     border-right: 2px rgb(35, 35, 35) solid;
-    justify-content: center;
-    z-index: 1;
+}
+.img {
+    position:relative;
+    height: 300px;
+    width: 555.7px;
+}
+.subcont {
+    position: absolute;
     color: wheat;
+    bottom: 250px;
 }
 
 @media (min-width: 1600px) {
