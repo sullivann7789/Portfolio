@@ -1,6 +1,6 @@
-const HRSN = Image("HRSN.png");
-const PWSG = Image("PWSG.png");
-const PWSG2 = Image("PWSG2.png");
+const HRSN = Image(src = "HRSN.png");
+const PWSG = Image(src = "PWSG.png");
+const PWSG2 = Image(src = "PWSG2.png");
 
 function A () {
     HRSN.onclick = window.open("https://sullivann7789.github.io/Horiseon-Refactor-Project/", "_blank");

@@ -258,21 +258,30 @@ h3 {
     position: relative;
     display: flex;
     flex-direction:row;
+    width: 100%;
 }
 #onp {
     position: absolute;
     top: -30px;
     text-align: center;
     flex: none;
+
 }
 .fake{
+    position: relative;
     border-left: 2px rgb(35, 35, 35) solid;
     border-right: 2px rgb(35, 35, 35) solid;
+    flex: 1 1 400px;
 }
 .img {
-    position:relative;
+    position: relative;
     height: 300px;
-    width: 555.7px;
+}
+#colorsjpg {
+    width: 100%;
+}
+#bluejpg {
+    width: 100%;
 }
 .subcont {
     position: absolute;
