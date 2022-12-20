@@ -254,7 +254,27 @@ h3 {
     border: 9px darkred ridge;
     z-index: 1;
 }
-
+#table-box{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    border: 3px rgb(35, 35, 35) solid;
+    margin: 30px;
+}
+#onp {
+    position: absolute;
+    top: -30px;
+    text-align: center;
+    flex: none;
+}
+.fake{
+    border-left: 2px rgb(35, 35, 35) solid;
+    border-right: 2px rgb(35, 35, 35) solid;
+    justify-content: center;
+    z-index: 1;
+    color: wheat;
+}
 
 @media (min-width: 1600px) {
     .PWScontent {
