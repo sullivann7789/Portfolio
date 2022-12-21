@@ -289,6 +289,9 @@ h3 {
 #bluejpg {
     width: 100%;
 }
+#sky-ocean {
+    width: 100%;
+}
 .subcont {
     position: relative;
     color: wheat;
@@ -300,13 +303,9 @@ h3 {
    color: rgb(0, 0, 0);
 }
 #awfork {
-    margin-left: 33%;
-    
+    margin-left: 20%;
+    margin-right: 20%;
 }
-#gray {
-    margin-right: 48%;
-}
-
 @media (min-width: 1600px) {
     .PWScontent {
         width: 1000px;
