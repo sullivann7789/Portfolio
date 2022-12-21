@@ -156,9 +156,10 @@ h3 {
     position:relative;
     flex-direction: column;
     padding-top: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
     display:flex;
     align-items: center;
+    border-bottom: 3px rgb(35, 35, 35) solid ;
 }
 #catp {
     margin-top: 50px;
@@ -259,6 +260,10 @@ h3 {
     display: flex;
     flex-direction:row;
     width: 100%;
+    flex-flow: row wrap;
+    margin-top: 150px;
+    justify-content: center;
+    border-top:
 }
 #onp {
     position: absolute;
@@ -269,24 +274,38 @@ h3 {
 }
 .fake{
     position: relative;
-    border-left: 2px rgb(35, 35, 35) solid;
-    border-right: 2px rgb(35, 35, 35) solid;
-    flex: 1 1 400px;
+    flex: 1 1 550px;
 }
 .img {
     position: relative;
     height: 300px;
+    border: 3px rgb(35, 35, 35) solid;
+    margin: 5px;
 }
 #colorsjpg {
     width: 100%;
+    border-left: none;
+    border-right: none;
 }
 #bluejpg {
     width: 100%;
 }
 .subcont {
-    position: absolute;
+    position: relative;
     color: wheat;
     bottom: 250px;
+    text-align: center;
+    text-decoration: none;
+}
+#nocolorid{
+   color: rgb(0, 0, 0);
+}
+#awfork {
+    margin-left: 33%;
+    
+}
+#gray {
+    margin-right: 48%;
 }
 
 @media (min-width: 1600px) {
@@ -310,7 +329,7 @@ h3 {
     }
     header ul li a {
         font-size: 10px;
-        margin-left: 35%;
+        margin-left: 34%;
     }
     body {
         font-size: 10px;
