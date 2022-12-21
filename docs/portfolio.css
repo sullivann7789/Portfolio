@@ -100,6 +100,7 @@ h1:hover{
     background-color: rgb(35, 35, 35);
     border-bottom:groove 10px rgb(95, 95, 95) ;
     border-top: ridge 10px rgb(95, 95, 95);
+    height: 90px;
 }
 #subsub {
     position: relative;
@@ -111,13 +112,19 @@ h1:hover{
     margin-left: 15px;
     top: -50px;
 }
+#headonp {
+    margin-left: 10%;
+}
+#headcont {
+    margin-right: 15%;
+}
 
 header p a {
     font-size: 20px;
     color:darkred;
     text-decoration: none;
     animation-name: appear;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-delay: 0s;
