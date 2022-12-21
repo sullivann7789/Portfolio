@@ -259,11 +259,10 @@ h3 {
     position: relative;
     display: flex;
     flex-direction:row;
-    width: 100%;
+    width: 99%;
     flex-flow: row wrap;
     margin-top: 150px;
     justify-content: center;
-    border-top:
 }
 #onp {
     position: absolute;
@@ -275,6 +274,8 @@ h3 {
 .fake{
     position: relative;
     flex: 1 1 550px;
+    margin: 10px;
+    justify-content: space-between;
 }
 .img {
     position: relative;
@@ -284,8 +285,6 @@ h3 {
 }
 #colorsjpg {
     width: 100%;
-    border-left: none;
-    border-right: none;
 }
 #bluejpg {
     width: 100%;
