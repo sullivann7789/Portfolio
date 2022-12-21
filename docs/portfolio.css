@@ -269,19 +269,21 @@ h3 {
     top: -30px;
     text-align: center;
     flex: none;
-
+    color: darkred;
+    font-size: 20px;
+    font-weight:bold;
 }
 .fake{
     position: relative;
     flex: 1 1 550px;
     margin: 10px;
     justify-content: space-between;
+    border: 3px rgb(35, 35, 35) solid;
+    height: 300px;
 }
 .img {
     position: relative;
-    height: 300px;
-    border: 3px rgb(35, 35, 35) solid;
-    margin: 5px;
+    height: 100%;
 }
 #colorsjpg {
     width: 100%;
@@ -294,17 +296,23 @@ h3 {
 }
 .subcont {
     position: relative;
-    color: wheat;
+    color:wheat;
     bottom: 250px;
     text-align: center;
     text-decoration: none;
 }
 #nocolorid{
-   color: rgb(0, 0, 0);
+   color: darkred;
 }
 #awfork {
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.fake:hover{
+    border: 5px darkred solid;
+    color: rgb(180, 2, 183);
+    box-shadow: 5px 5px 5px rgb(73, 0, 74);
 }
 @media (min-width: 1600px) {
     .PWScontent {
