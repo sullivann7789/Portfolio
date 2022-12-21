@@ -300,9 +300,19 @@ h3 {
     bottom: 250px;
     text-align: center;
     text-decoration: none;
+    background-color: black;
+    width: 100px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    bottom: 300px;
+    margin-left: 45%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
-#nocolorid{
-   color: darkred;
+#gray {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 #awfork {
     margin-left: 20%;
@@ -311,8 +321,12 @@ h3 {
 
 .fake:hover{
     border: 5px darkred solid;
-    color: rgb(180, 2, 183);
     box-shadow: 5px 5px 5px rgb(73, 0, 74);
+}
+
+.fake:hover .subcont {
+    bottom: 295px;
+    background-color: darkred;
 }
 @media (min-width: 1600px) {
     .PWScontent {
@@ -367,3 +381,4 @@ h3 {
 
     }
 }
+
