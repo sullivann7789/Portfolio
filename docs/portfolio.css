@@ -419,6 +419,12 @@ h3 {
         padding-left: 20px;
         margin-left: 27%;
     }
+    #golden {
+        color:rgb(0, 255, 21) ;
+    }
+    #o {
+        color: rgb(0, 255, 21);
+    }
 }
 
 @media (max-width: 1150px) {
