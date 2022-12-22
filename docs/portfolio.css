@@ -434,57 +434,6 @@ h3 {
     }
 }
 
-@media (max-width: 770px) {
-    .PWS{
-        padding: 0px;
-        margin: 0px;
-    }
-    .PWScontent h5 {
-        font-size: 12px;
-    }
-    .HRSN {
-        height: 150px;
-        width: auto;
-        border:9px rgb(0, 0, 0) ridge;
-        border-radius: .5px;
-    }
-    .aH {
-        height: 110px;
-        width: auto;
-    }
-    header h1 {
-        font-size: 25px;
-    }
-    header ul li a {
-        font-size: 10px;
-        margin-left: 34%;
-    }
-    @keyframes fixposition {
-        0% {
-            color:rgb(35, 35, 35);
-            margin-left: 0%;
-        }
-        100% {
-            color: darkred;
-            margin-left: 34%;
-        }
-    }
-    #preguide {
-        padding-right: 40px;
-    }
-    #contact {
-        border-radius: 0%;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    #o {
-        color: rgb(255, 224, 140);
-    }
-    #contact article ul li{
-        list-style:none;
-        padding: 10px;
-    }
-}
 @media (max-width: 1100px) {
     .card {
         display: inline-block;
@@ -572,6 +521,59 @@ h3 {
     #awfork {
         margin-left: 10px;
         margin-right: 10px;
+    }
+}
+
+@media (max-width: 770px) {
+    .PWS{
+        padding: 0px;
+        margin: 0px;
+    }
+    .PWScontent h5 {
+        font-size: 12px;
+    }
+    .HRSN {
+        height: 150px;
+        width: auto;
+        border:9px rgb(0, 0, 0) ridge;
+        border-radius: .5px;
+    }
+    .aH {
+        height: 110px;
+        width: auto;
+    }
+    header h1 {
+        font-size: 25px;
+    }
+    header ul li a {
+        font-size: 10px;
+        margin-left: 34%;
+    }
+    @keyframes fixposition {
+        0% {
+            color:rgb(35, 35, 35);
+            margin-left: 0%;
+        }
+        100% {
+            color: darkred;
+            margin-left: 34%;
+        }
+    }
+    #preguide {
+        padding-right: 40px;
+    }
+    #contact {
+        border-radius: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 17%;
+    }
+    #o {
+        color: rgb(255, 224, 140);
+    }
+    #contact article ul li{
+        list-style:none;
+        padding: 10px;
     }
 }
 
