@@ -216,7 +216,7 @@ h3 {
     position:relative;
     height: 100px;
     width: 100px;
-    mix-blend-mode:color-burn;
+    mix-blend-mode:darken;
     z-index: 1;
     top: 34px;
     transform: rotate(9deg);
@@ -233,7 +233,7 @@ h3 {
 #text-box:hover::after {
     position:absolute;
     border-left: 10px white solid;
-    border-bottom: 5px rgb(177, 198, 205) solid;
+    border-bottom: 5px rgb(162, 178, 197) solid;
     border-radius: 5px;
     padding-bottom: 5px;
     margin-bottom: 5px;
@@ -258,7 +258,7 @@ h3 {
         height: 100px;
         width: 100px;
         align-items: center;
-        mix-blend-mode:color-burn;
+        mix-blend-mode:darken;
         z-index: 0;
         top: 34px;
         transform: rotate(9deg);
@@ -269,7 +269,7 @@ h3 {
         height: 100px;
         width: 100px;
         align-items: center;
-        mix-blend-mode:color-burn;
+        mix-blend-mode:darken;
         z-index: 0;
         top: 34px;
         transform: rotate(9deg);
@@ -279,7 +279,7 @@ h3 {
         height: 100px;
         width: 100px;
         align-items: center;
-        mix-blend-mode:color-burn;
+        mix-blend-mode:darken;
         z-index: 0;
         top: 60px;
         transform: rotate(6deg);
