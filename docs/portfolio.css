@@ -13,7 +13,7 @@ header {
     font-family: Arial;
     text-justify: newspaper;
     color: tan;
-    background-color:gray;
+    background-image:url(skysit2.jpeg);
     text-shadow: 10px 10px 8px black;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -161,13 +161,16 @@ h3 {
     flex-direction: column;
     font-family: Arial;
     color:black;
-    background-color:wheat;
-    border-top: 20px wheat solid;
+    background-image: url(IMG_1906.jpg);
+    border-top: 20px url(IMG_1906.jpg);
+    background-position-x: -500px;
+    background-position-y: 200px;
     }
 .PWS {
     display: flex;
     padding: 30px;
     border-bottom: 3px rgb(35, 35, 35) solid ;
+    background-image: url(IMG_1906.jpg);
 }
 .PWScontent {
     width:max-content;
@@ -371,8 +374,10 @@ h3 {
 }
 
 #contact h3{
-    background-color: wheat;
+    background:none;
+    color:rgb(255, 42, 0);
     border: none;
+    text-align: center;
 }
 @media (min-width: 1600px) {
     .PWScontent {
