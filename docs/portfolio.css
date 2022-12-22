@@ -374,9 +374,25 @@ h3 {
 
 #contact h3{
     background:none;
-    color:rgb(255, 42, 0);
+    color:rgb(0, 255, 21);
     border: none;
     text-align: center;
+}
+#contact {
+    border: 4px double rgb(255, 89, 0);
+    border-radius: 50%;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding: 30px;
+    background-image: url(blaxole.jpg);
+    background-position-x: -58px;
+    background-position-y: -185px;
+}
+#golden {
+    color:rgb(255, 247, 10)
+}
+#o{
+    color: black;
 }
 @media (min-width: 1600px) {
     .PWScontent {
