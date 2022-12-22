@@ -390,15 +390,18 @@ h3 {
     margin-top: 240px;
     margin-bottom: 80px;
 }
+#contact ul li {
+    list-style: none;
+}
 #golden {
     color:rgb(255, 247, 10)
-}
-#o{
-    color: black;
 }
 @media (min-width: 1600px) {
     .PWScontent {
         width: 1000px;
+    }
+    #o {
+        color: black;
     }
 }
 @media (max-width: 770px) {
@@ -440,8 +443,6 @@ h3 {
         padding-right: 40px;
     }
     #contact {
-        display: flex;
-        border: none;
         border-radius: 0%;
         padding-left: 0px;
         padding-right: 0px;
@@ -449,8 +450,9 @@ h3 {
     #o {
         color: rgb(255, 224, 140);
     }
-    #contact article {
-        align-items: center;
+    #contact article ul li{
+        list-style:none;
+        padding: 10px;
     }
 }
 @media (max-width: 1100px) {
