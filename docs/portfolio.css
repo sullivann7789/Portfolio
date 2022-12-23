@@ -7,6 +7,7 @@
 body{
     size: 100%;
     border-collapse: collapse;
+    background-image: url(IMG_1906.jpg);
 }
 header {
     font-family: Arial;
@@ -137,6 +138,24 @@ header p a {
     100% {
         color: darkred;
     }
+}
+#aboutme {
+    margin-top: 30px;
+    font-family: Arial;
+    background-image: url(skysit2.jpeg);
+    text-align: center;
+    color:rgb(111, 2, 2);
+    border-top: 8px rgb(89, 130, 181) groove;
+    border-bottom: 8px rgb(89, 130, 181) groove;
+    background-position-x: -500px;
+    background-position-y: -500px;
+    text-shadow: 2px 2px 9px black;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#aboutme h2 {
+    text-shadow: 10px 10px 8px black;
 }
 
 #preguide {
